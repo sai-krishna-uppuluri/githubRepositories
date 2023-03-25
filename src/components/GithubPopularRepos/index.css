@@ -1,0 +1,33 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-main-heading {
+  font-size: 62px;
+  font-family: lobster;
+  font-weight: 500;
+}
+
+.language-filter-container {
+  margin: 0;
+  margin-top: 0;
+}
+
+.language-list-view {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.repository-list-view {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 25px;
+}
